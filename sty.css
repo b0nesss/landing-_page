@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Martel&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+.banner{
+    display:flex;
+    justify-content: space-between;
+}
+body{
+    background-image: url(1626766.jpg);  
+}
+.acm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0px;
+    
+}
+.navbar li{
+    margin: 5px;
+    color: whitesmoke;
+    padding-inline: 10px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: medium;
+}
+.place_end{
+    display:flex ;
+    justify-content: space-evenly;
+    padding-inline-start: 0px;
+    align-self: flex-start;
+    /* margin-right: 0px; */
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 615px ;
+    gap: 5px;
+    padding: 1px;
+    /* background-color: rgb(26, 12, 36); */
+}
+.item-1{
+    text-align: center;
+    padding-top: 100px;
+    /* outline: 10px black; */
+}
+.item-1 ul{
+    display: flex;
+    background-image: url();
+    flex-direction: column;
+    font-weight: 500;
+    align-items:flex-start;
+    margin-left: auto;
+    /* border: 5px dashed black; */
+}
+.middle{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    color: whitesmoke;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.andar{
+text-align: start;
+margin: 0px 0px 0px -16px ;
+font-family: 'Hind Madurai', sans-serif;
+list-style: none;
+color: white;
+}
+.item-2{
+    display: grid;
+    grid-template-rows: 140px 191px 45px 245px ;
+}
+.caption{
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Martel', serif;
+    margin: 0px 0px 0px 0px;
+}
+.main-img{
+    display: flex;
+    color: white;
+    font-family: 'Tilt Prism', cursive;
+    align-items:center;
+    justify-content: center;
+    font-size: 72px;   
+    font-weight: 550;
+}
+.About{
+    font-size: 18px;
+    color: whitesmoke;
+    font-family: 'Hind Madurai', sans-serif;
+    padding-top: 60px;
+    align-items: end;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+._button{
+    display: flex;
+    justify-content: center;
+}
+._button button{
+    background: color #e0d8c3;;
+    border: 2px solid rgba(216, 129, 41, 0.97);
+    border-radius: 21.5%;
+    color: rgb(216, 129, 41);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgba(25, 21, 121, 0.868);
+    border: 2px solid rgba(59, 19, 99, 0.97); 
+}
+.item-3{
+    font-size: large;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    padding-top: 120px;
+    margin-block: 0px;
+}
+.links{
+    font-weight: 450;
+    padding-top: 10px;
+    padding-left: 7px ;
+    padding-right: 4px;
+    margin: 0%;    
+}
+.links li{
+    list-style:disc;
+}
+.bhay-link{
+    font-size: larger;
+    font-weight: 550;
+    justify-content: center;
+    padding-left: 10px;
+
+}
+.links li:hover{
+    color: rgb(29, 72, 166);
+}
